@@ -46,3 +46,41 @@ a {
 ul {
   list-style-type: none;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
+
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  margin-right: auto;
+  padding-left: 0;
+}
+
+.header-two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 8px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.header-two-left,
+.header-two-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.links-two {
+  display: flex;
+  gap: 10px;
+  padding-left: 0;
+}
